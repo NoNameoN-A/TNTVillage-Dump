@@ -1,5 +1,6 @@
 
 # TNTVillage-Dump
+Release: https://github.com/NoNameoN-A/TNTVillage-Dump/releases/tag/TNTVillage
 
 ## 2019 annuncio | [Fonte](https://archiveteam.org/index.php?title=TNTvillage#2019_announcement)
 
