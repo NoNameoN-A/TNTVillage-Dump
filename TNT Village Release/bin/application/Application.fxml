@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="borderPaneBase" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Application">
+   <center>
+      <TableView fx:id="tableView" tableMenuButtonVisible="true" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="data" minWidth="-1.0" prefWidth="75.0" text="data" />
+          <TableColumn fx:id="hash" minWidth="-1.0" prefWidth="75.0" text="hash" />
+            <TableColumn fx:id="topic" minWidth="-1.0" prefWidth="75.0" text="topic" />
+            <TableColumn fx:id="post" minWidth="-1.0" prefWidth="75.0" text="post" />
+            <TableColumn fx:id="autore" minWidth="-1.0" prefWidth="75.0" text="autore" />
+            <TableColumn fx:id="titolo" minWidth="-1.0" prefWidth="75.0" text="titolo" />
+            <TableColumn fx:id="descrizione" minWidth="-1.0" prefWidth="75.0" text="descrizione" />
+            <TableColumn fx:id="dimensione" minWidth="-1.0" prefWidth="75.0" text="dimensione" />
+        </columns>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </center>
+   <left>
+      <VBox fx:id="vBoxSinistra" BorderPane.alignment="CENTER">
+         <children>
+            <BorderPane fx:id="borderPaneCaricaFile" layoutX="10.0" layoutY="210.0" prefHeight="200.0" prefWidth="200.0">
+               <center>
+                  <Button fx:id="caricaFileButton" mnemonicParsing="false" onAction="#carica" text="Carica File" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </BorderPane.margin>
+                  </Button>
+               </center>
+            </BorderPane>
+            <BorderPane fx:id="borderPaneCerca" prefHeight="200.0" prefWidth="200.0">
+               <center>
+                  <TextField fx:id="textField" minHeight="31.0" minWidth="150.0" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </BorderPane.margin>
+                  </TextField>
+               </center>
+               <right>
+                  <Button fx:id="cercaButton" mnemonicParsing="false" onAction="#cerca" text="Cerca" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </BorderPane.margin>
+                  </Button>
+               </right>
+            </BorderPane>
+            <BorderPane fx:id="borderPaneScarica" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0">
+               <center>
+                  <Button fx:id="scaricaButton" mnemonicParsing="false" onAction="#scarica" text="Scarica selezionato" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </BorderPane.margin>
+                  </Button>
+               </center>
+            </BorderPane>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </BorderPane.margin>
+      </VBox>
+   </left>
+   <top>
+      <MenuBar fx:id="menuBar" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu fx:id="fileMenuBar" mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem fx:id="caricaFileMenu" mnemonicParsing="false" onAction="#carica" text="Carica File" />
+              <MenuItem fx:id="ripristinaMenu" mnemonicParsing="false" onAction="#ripristina" text="Ripristina" />
+                  <MenuItem fx:id="scaricaMenu" mnemonicParsing="false" onAction="#scarica" text="Scarica" />
+            </items>
+          </Menu>
+          <Menu fx:id="aiutoMenu" mnemonicParsing="false" text="Aiuto">
+            <items>
+              <MenuItem fx:id="sviluppatoreMenu" mnemonicParsing="false" onAction="#about" text="Sviluppatore" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <padding>
+      <Insets bottom="10.0" right="10.0" />
+   </padding>
+</BorderPane>
