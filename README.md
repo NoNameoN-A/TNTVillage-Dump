@@ -27,7 +27,41 @@ Release: https://github.com/NoNameoN-A/TNTVillage-Dump/releases/tag/TNTVillage
 > [QUESTO](https://archive.org/details/dump_release_tntvillage_2019-08-30).
 > 
 > — TNT Team
+
+# Eng (Ita version is down)
+## Requirements
+
+- A software to download 'Magnet' links such as uTorrent.
+ - Insert this rine in the compile / run arguments, if you have never used JavaFX search online. `--module-path "C:\Your\Path\javafx\javafx-sdk-11.0.2\lib" --add-modules javafx.controls,javafx.fxml`
+ - * .csv file can be recovered via [wikipedia] (https://archiveteam.org/index.php?title=TNTvillage#2019_announcement).
+
 #
+## Usage
+### Start 'App.java'
+![1](https://github.com/NoNameoN-A/TNTVillage-Dump/blob/main/README%20Image/1.PNG)
+#
+### Upload *.csv file
+![2](https://github.com/NoNameoN-A/TNTVillage-Dump/blob/main/README%20Image/2.PNG)
+#
+### You will need to see this interface
+![3](https://github.com/NoNameoN-A/TNTVillage-Dump/blob/main/README%20Image/3.PNG)
+#
+### Use the search bar
+*N.B. La barra di ricerca effettua una ricerca solo nel Titolo quindi non cercare per altri parametri*
+![4](https://github.com/NoNameoN-A/TNTVillage-Dump/blob/main/README%20Image/4.PNG)
+#
+### Download by clicking the indicated button
+![5](https://github.com/NoNameoN-A/TNTVillage-Dump/blob/main/README%20Image/5.PNG)
+#
+### Enjoi (:
+![6](https://github.com/NoNameoN-A/TNTVillage-Dump/blob/main/README%20Image/6.PNG)
+#
+# Credits
+
+ - Repo: https://github.com/NoNameoN-A/TNTVillage-Dump
+ - WebSite: https://nonameon.altervista.org/
+
+# Ita
 ## Requisiti
 
  - Un software per scaricare link 'Magnet' come ad esempio uTorrent.
@@ -59,4 +93,3 @@ Release: https://github.com/NoNameoN-A/TNTVillage-Dump/releases/tag/TNTVillage
 
  - Repo: https://github.com/NoNameoN-A/TNTVillage-Dump
  - WebSite: https://nonameon.altervista.org/
- - Email: nonameon@protonmail.ch
