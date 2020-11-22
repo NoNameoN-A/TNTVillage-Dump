@@ -2,7 +2,7 @@
 # TNTVillage-Dump
 Release: https://github.com/NoNameoN-A/TNTVillage-Dump/releases/tag/TNTVillage
 
-## 2019 annuncio | [Fonte](https://archiveteam.org/index.php?title=TNTvillage#2019_announcement)
+## 2019 annuncio | [Source](https://archiveteam.org/index.php?title=TNTvillage#2019_announcement)
 
 > In April 2019, an interview to Luigi Di Liberto spread the news about
 > legal issues faced by the founder of TNTvillage. Later he announced
